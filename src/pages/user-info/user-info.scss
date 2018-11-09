@@ -1,0 +1,21 @@
+page-user-info {
+    ion-content{
+        .title{
+            font-weight: 700;
+            color: color($colors, magenta, base);
+        }
+        .socialMedia{
+            img{
+                display: inline;
+                padding-right: 5%;
+            }
+            h5{
+                padding-right: 10%;
+                display: inline;
+            }
+        }
+    }
+    button{
+        text-transform: none !important;
+    }
+}

@@ -1,18 +1,23 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="pink">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>iFound</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content padding class="no-scroll">
+  <br>
+  <img src="assets/imgs/WelcomePageLogo.svg" alt="" srcset="">
+  <h1 text-center>iFound</h1>
+  <h4 text-center>Have you found <br>Something ?</h4>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
+<ion-footer padding>
+  <button ion-button round large full color="pink" (click)="scan()">
+    Scan QR &nbsp;
+    <ion-icon name="appname-qr"></ion-icon>
+  </button>
+</ion-footer>

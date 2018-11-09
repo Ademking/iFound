@@ -1,3 +1,26 @@
 page-home {
 
+
+    ion-content{
+        h1{
+            font-size: 15vw;
+            font-weight: 600;
+            color: color($colors, pink, base);
+        }
+
+        h4{
+            color: color($colors, magenta, base);
+            font-weight: 700;
+        }
+    }
+
+    ion-footer {
+        &.footer-md::before {
+            background-image: none;
+        }
+        button{
+            text-transform: none !important;
+            
+        }
+    }
 }

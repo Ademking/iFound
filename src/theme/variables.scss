@@ -38,7 +38,10 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  pink:       #FF526C,
+  magenta:    #45315D,
+  green:      #07c03e
 );
 
 
@@ -86,3 +89,13 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+
+$font-family-base: 'Montserrat';
+$font-family-ios-base: 'Montserrat';
+$font-family-md-base: 'Montserrat';
+$font-family-wp-base: 'Montserrat';
